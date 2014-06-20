@@ -126,12 +126,6 @@ config MSM_PROC_COMM
 config MSM_SMD
 	bool
 
-config INTELLI_PLUG
-	bool "Enable intelli-plug cpu hotplug driver"
-	default n
-	help
-	  Generic Intelli-plug cpu hotplug driver for ARM SOCs
-
 config MSM_GPIOMUX
 	bool
 
