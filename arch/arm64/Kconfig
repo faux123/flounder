@@ -180,6 +180,8 @@ source "arch/arm64/mach-tegra/Kconfig"
 
 endmenu
 
+source arch/arm64/hotplug/Kconfig
+
 menu "Bus support"
 
 config ARM_AMBA
